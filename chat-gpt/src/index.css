@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: SpaceMission;
+    src: url("./space-mission.otf");
+}
+
+@layer base {
+    html {
+        font-family: "Poppins", sans-serif;
+        overflow-x: hidden;
+    }
+}
